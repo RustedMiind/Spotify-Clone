@@ -1,0 +1,76 @@
+.top-nav {
+  z-index: 1000;
+  position: fixed;
+  width: inherit;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.6em;
+  color: var(--font-light);
+  top: 0;
+}
+.top-nav .left {
+  font-size: 2.2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.top-nav .left .arrow {
+  border-radius: 600em;
+  transform: scale(1.05);
+  background-color: var(--font-main);
+  color: var(--bg-darkest);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.top-nav .left > :first-child.arrow {
+  margin-right: 0.2em;
+}
+
+.top-nav .right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.top-nav .right button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.top-nav .right button.upgrade {
+  border-radius: 40em;
+  font-size: 1.1em;
+  border: 0.15em solid var(--font-main);
+  padding: 0.3em 0.6em;
+  margin-right: 2em;
+}
+.top-nav .right button.upgrade:hover {
+  background-color: var(--bg-darkest);
+  transform: scale(1.05);
+}
+
+.top-nav .right button.user-settings {
+  display: flex;
+  padding: 0.2em;
+  align-items: center;
+  justify-content: center;
+  height: 2.4em;
+  background-color: var(--bg-dark);
+  transform: scale(1.05);
+  border-radius: 40em;
+}
+.top-nav .right button.user-settings img {
+  height: 100%;
+  border-radius: 40em;
+}
+.top-nav .right button.user-settings .name {
+  margin: 0 0.6em;
+}
