@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { PlayCircleFill } from "react-bootstrap-icons";
 function Category(props) {
-  const { name, cards, key } = props.data;
+  const { name, cards } = props.data;
   const [show, setShow] = useState(false);
   return (
-    <div className="category" key={key}>
+    <div className="category">
       <div className="top-line">
         <h3>{name}</h3>
         <button
@@ -21,7 +21,7 @@ function Category(props) {
       >
         {cards.map((card) => {
           return (
-            <div className="card">
+            <div className="card" key={card.key}>
               <div
                 className="img"
                 style={{

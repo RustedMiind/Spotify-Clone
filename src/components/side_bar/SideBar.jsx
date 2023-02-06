@@ -7,96 +7,78 @@ import {
   CollectionPlayFill,
   HouseDoorFill,
   SearchHeartFill,
-  PlusSquare,
+  // PlusSquare,
   PlusSquareFill,
 } from "react-bootstrap-icons";
-import { useState } from "react";
-function SideBar() {
-  const [active, setActive] = useState("");
+import { useEffect, useState } from "react";
+
+function SideBar(props) {
+  const [playlists, setPlaylists] = useState([]);
+  useEffect(() => {
+    if (props.data[0]) {
+      setPlaylists(props.data[2].cards);
+    }
+  }, [props]);
   return (
     <div className="side-bar">
       <nav className="main-buttons">
-        <NavLink
-          to="/"
-          style={({ isActive }) => {
-            if (isActive) {
-              setActive("Home");
-            }
-            return null;
-          }}
-        >
-          <span className={`icon `}>
-            {active === "Home" ? <HouseDoorFill /> : <HouseDoor />}
-          </span>
-          <span className="title">Home</span>
+        <NavLink to="/">
+          {({ isActive }) => (
+            <>
+              <span className="icon">
+                {isActive ? <HouseDoorFill /> : <HouseDoor />}
+              </span>
+              <span className="title">Home</span>
+            </>
+          )}
         </NavLink>
-        <NavLink
-          to="/search"
-          style={({ isActive }) => {
-            if (isActive) {
-              setActive("Search");
-            }
-            return null;
-          }}
-        >
-          <span className="icon">
-            {active === "Search" ? <SearchHeartFill /> : <Search />}
-          </span>
-          <span className="title">Search</span>
+        <NavLink to="/search">
+          {({ isActive }) => (
+            <>
+              <span className="icon">
+                {isActive ? <SearchHeartFill /> : <Search />}
+              </span>
+              <span className="title">Search</span>
+            </>
+          )}
         </NavLink>
-        <NavLink
-          to="/libraries"
-          style={({ isActive }) => {
-            if (isActive) {
-              setActive("Libraries");
-            }
-            return null;
-          }}
-        >
-          <span className="icon">
-            {active === "Libraries" ? (
-              <CollectionPlayFill />
-            ) : (
-              <CollectionPlay />
-            )}
-          </span>
-          <span className="title">Libraries</span>
+        <NavLink to="/libraries">
+          {({ isActive }) => (
+            <>
+              <span className="icon">
+                {isActive ? <CollectionPlayFill /> : <CollectionPlay />}
+              </span>
+              <span className="title">Libraries</span>
+            </>
+          )}
         </NavLink>
       </nav>
       <div className="create-playlist-container main-buttons">
-        <NavLink
-          to="/create-playlist"
-          style={({ isActive }) => {
-            if (isActive) {
-              setActive("CreatePlaylist");
-            }
-            return null;
-          }}
-        >
-          <span className="icon">
-            {active === "CreatePlaylist" ? (
-              <PlusSquareFill />
-            ) : (
-              <PlusSquareFill />
-            )}
-          </span>
-          <span className="title">Create Playlist</span>
+        <NavLink to="/create-playlist">
+          {({ isActive }) => (
+            <>
+              <span className="icon">
+                {isActive ? <PlusSquareFill /> : <PlusSquareFill />}
+              </span>
+              <span className="title">Create Playlist</span>
+            </>
+          )}
         </NavLink>
       </div>
       <div className="playlists-list">
         <ul>
-          <li>Hello</li>
-          <li>Hello</li>
-          <li>Hello</li>
-          <li>Hello</li>
-          <li>Hello</li>
-          <li>Hello</li>
-          <li>Hello</li>
-          <li>Hello</li>
-          <li>Hello</li>
-          <li>Hello</li>
-          <li>Hello</li>
-          <li>Hello</li>
+          {playlists.map((playlist) => {
+            return (
+              <li>
+                <NavLink
+                  className="playlist-link"
+                  to={`/playlist/${playlist.type}~(${playlist.name}~(${playlist.key}`}
+                >
+                  {playlist.name}
+                </NavLink>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </div>

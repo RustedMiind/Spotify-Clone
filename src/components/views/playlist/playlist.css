@@ -1,0 +1,158 @@
+:root {
+  --playlist-card-height: 4em;
+  --playlist-card-half-height: 2em;
+}
+.playlist {
+  width: 100%;
+}
+.playlist .songs-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.playlist .song-card.headers {
+  color: var(--font-main) !important;
+  height: 2em !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+}
+.playlist .songs-container .nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0em;
+}
+.playlist .songs-container .songs {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  width: 100%;
+  padding: 2em 1em;
+}
+
+.playlist .songs-container .song-card {
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: transparent;
+}
+.playlist .songs-container .song-card:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.playlist .songs-container .song-card .rank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--playlist-card-height);
+  width: var(--playlist-card-half-height);
+}
+.playlist .songs-container .song-card .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  height: var(--playlist-card-height);
+  width: var(--playlist-card-height);
+}
+.playlist .songs-container .song-card .image-container .image {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+}
+.playlist .songs-container .song-card .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: var(--playlist-card-height);
+  width: calc(40% - 6em);
+}
+.playlist .songs-container .song-card .info h3 {
+  font-size: 1em;
+  font-weight: 600;
+}
+.playlist .songs-container .song-card .info p {
+  font-size: 0.8em;
+  color: var(--font-main);
+}
+.playlist .songs-container .song-card .album {
+  display: flex;
+  align-items: center;
+  height: var(--playlist-card-height);
+  width: 26%;
+  color: var(--font-main);
+}
+.playlist .songs-container .song-card .date-added {
+  display: flex;
+  align-items: center;
+  height: var(--playlist-card-height);
+  width: 26%;
+  color: var(--font-main);
+  font-size: 0.9em;
+}
+.playlist .songs-container .song-card .duration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--playlist-card-height);
+  width: 8%;
+  color: var(--font-main);
+  font-size: 0.9em;
+}
+.songs-container .nav .nav-container {
+  height: 5em;
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.songs-container .nav .nav-container .play-btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: var(--play-button-color);
+  border-radius: 30em;
+  box-shadow: 0 0.08em 0.2em rgba(0, 0, 0, 0.5);
+  transition: opacity, transform, 100ms ease-in;
+  cursor: pointer;
+}
+.songs-container .nav .nav-container .play-btn2:hover {
+  color: white;
+}
+
+.playlist .headings-container {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  height: 18em;
+}
+.playlist .headings-container .image-container {
+  height: 14em;
+  width: 14em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 3em rgba(0, 0, 0, 0.5);
+  margin-right: 3em;
+}
+.playlist .headings-container .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 14em;
+}
+.playlist .headings-container .text-container h6 {
+  font-size: 1em;
+}
+.playlist .headings-container .text-container h1 {
+  font-size: 4em;
+  margin: 0.1em 0;
+}

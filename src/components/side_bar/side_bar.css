@@ -63,3 +63,22 @@
 .side-bar .playlists-list ul li:hover {
   color: var(--font-light);
 }
+
+.side-bar .playlists-list::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.side-bar .playlists-list {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.side-bar .playlist-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+}
+
+.side-bar .playlist-link.active {
+  color: var(--font-light);
+}

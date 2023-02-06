@@ -1,5 +1,5 @@
 .top-nav {
-  z-index: 1000;
+  z-index: 900;
   position: fixed;
   width: inherit;
   height: 4em;
@@ -9,6 +9,25 @@
   padding: 0 1.6em;
   color: var(--font-light);
   top: 0;
+  background-color: transparent;
+}
+.background-nav {
+  position: fixed;
+  z-index: -1;
+  width: inherit;
+  margin-left: -1.6em;
+  height: 4em;
+  top: 0;
+  background-color: var(--grad-color2);
+  transition: 100ms;
+}
+.background-nav .background-darkness {
+  position: fixed;
+  z-index: -1;
+  width: inherit;
+  height: 4em;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .top-nav .left {
   font-size: 2.2em;
@@ -63,7 +82,7 @@
   align-items: center;
   justify-content: center;
   height: 2.4em;
-  background-color: var(--bg-dark);
+  background-color: rgba(0, 0, 0, 0.7);
   transform: scale(1.05);
   border-radius: 40em;
 }
@@ -73,4 +92,33 @@
 }
 .top-nav .right button.user-settings .name {
   margin: 0 0.6em;
+}
+.top-nav .left .search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: black;
+  height: 1.1em;
+  padding: 0 0.2em;
+  border-radius: 40em;
+  margin-left: 0.4em;
+}
+.top-nav .left .search-bar .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 0.2em;
+}
+.top-nav .left .search-bar .icon-container .icon {
+  font-size: 0.8em;
+}
+.top-nav .left .search-bar input {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding-right: 1em;
+  min-width: 20em;
 }

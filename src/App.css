@@ -7,14 +7,42 @@
   --bg-medium: #2a2a2a;
   --bg-medium-hover: #414141;
   --play-button-color: #1ed760;
-  --main-font-family: "Roboto", sans-serif;
-  --main-font-weight: 500;
+  --main-font-family: Circular, sans-serif;
+  --main-font-weight: 600;
+  --nav-color: rgb(80, 0, 0);
+  --grad-color1: rgba(152, 35, 0, 1);
+  --grad-color2: rgba(255, 136, 0, 1);
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* font-family: 'Roboto', sans-serif; */
 /* Defaults */
+@font-face {
+  font-family: Circular;
+  font-weight: 300;
+  src: url("./Circular/CircularStd-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: Circular;
+  font-weight: 500;
+  src: url("./Circular/CircularStd-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: Circular;
+  font-weight: 700;
+  src: url("./Circular/CircularStd-Black.otf") format("opentype");
+}
+@font-face {
+  font-family: Circular;
+  font-weight: 800;
+  src: url("./Circular/CircularStd-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: Circular;
+  font-weight: 600;
+  src: url("./Circular/CircularStd-Book.otf") format("opentype");
+}
 * {
-  outline: 1px solid rgba(0, 195, 255, 0.4) !important;
+  /* outline: 1px solid rgba(0, 225, 255, 0.3) !important; */
   /* background-color: rgba(255, 255, 255, 0.15); */
   margin: 0;
   padding: 0;
@@ -31,9 +59,10 @@
   font-weight: var(--main-font-weight);
 }
 .side-bar {
-  width: 12.5vw;
+  width: 17.5vw;
 }
 .view {
-  width: 87.5vw;
+  width: 82.5vw;
+  height: 100vh;
   background-color: darkslategray;
 }
