@@ -52,34 +52,32 @@ function Home(props) {
             <div className="top-playlists">
               <h2>Good evening</h2>
               <div className={`container ${cardsColumn ? "column" : null}`}>
-                {Data[2]
-                  ? Data[2].cards
-                      .map((card) => {
-                        return (
-                          <NavLink
-                            to={`/playlist/${card.type}~(${card.name}~(${card.key}`}
-                            className="wide-card"
-                          >
-                            <div className="left">
-                              <div
-                                className="img"
-                                style={{
-                                  backgroundImage: `url(${card.img})`,
-                                }}
-                              ></div>
-                              <div className="info">
-                                <h3>{card.name}</h3>
-                                <p>{card.about}</p>
-                              </div>
-                            </div>
-                            <div className="right">
-                              <PlayCircleFill className="play-btn" />
-                            </div>
-                          </NavLink>
-                        );
-                      })
-                      .filter((item, index) => index < wideCards)
-                  : null}
+                {Data[2].cards
+                  .map((card) => {
+                    return (
+                      <NavLink
+                        to={`/playlist/${card.type}~(${card.name}~(${card.key}`}
+                        className="wide-card"
+                      >
+                        <div className="left">
+                          <div
+                            className="img"
+                            style={{
+                              backgroundImage: `url(${card.img})`,
+                            }}
+                          ></div>
+                          <div className="info">
+                            <h3>{card.name}</h3>
+                            <p>{card.about}</p>
+                          </div>
+                        </div>
+                        <div className="right">
+                          <PlayCircleFill className="play-btn" />
+                        </div>
+                      </NavLink>
+                    );
+                  })
+                  .filter((item, index) => index < wideCards)}
               </div>
             </div>
             {Data.map((category) => {

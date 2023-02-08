@@ -18,7 +18,7 @@ const colors = [
   ["#5c5c5c", "#808080"],
 ];
 function App() {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState();
   const [playlist, setPlaylist] = useState("");
   const [toggleNav, setToggleNav] = useState(true);
   const location = useLocation();
@@ -38,7 +38,7 @@ function App() {
   }, [location]);
 
   useEffect(() => {
-    const getData = axios.get(`/data/Data.json`);
+    const getData = axios.get(`/data/data.json`);
     getData
       .then((response) => {
         setData(response.data);
@@ -48,15 +48,17 @@ function App() {
   }, []);
   return (
     <DataContext.Provider value={data}>
-      <div className="App" id="App">
-        <SideBar
-          toggle={toggle}
-          toggleNav={toggleNav}
-          data={data}
-          handlePlaylist={setPlaylist}
-        ></SideBar>
-        <View toggle={toggle} toggleNav={toggleNav}></View>
-      </div>
+      {data ? (
+        <div className="App" id="App">
+          <SideBar
+            toggle={toggle}
+            toggleNav={toggleNav}
+            data={data}
+            handlePlaylist={setPlaylist}
+          ></SideBar>
+          <View toggle={toggle} toggleNav={toggleNav}></View>
+        </div>
+      ) : null}
     </DataContext.Provider>
   );
 }
