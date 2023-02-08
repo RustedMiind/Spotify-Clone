@@ -15,6 +15,9 @@ function Home(props) {
     handleResize();
     //   console.log(homeRef.current.scrollTop);
   }, [props]);
+  useEffect(() => {
+    props.setTitle("Home");
+  }, []);
   const handleResize = () => {
     let cardsCount = Math.floor(homeRef.current.offsetWidth / 400);
 
@@ -25,7 +28,7 @@ function Home(props) {
       setWideCards(cardsCount);
       setCardsColumn(false);
     }
-    console.log("Fires");
+    // console.log("Fires");
   };
   window.addEventListener("resize", () => {
     clearTimeout(timeout);

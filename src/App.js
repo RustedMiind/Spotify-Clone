@@ -42,7 +42,7 @@ function App() {
     getData
       .then((response) => {
         setData(response.data);
-        console.log(response.data);
+        // console.log(response.data);
       })
       .catch((error) => setData(error.data));
   }, []);

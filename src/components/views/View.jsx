@@ -6,6 +6,10 @@ import Playlist from "./playlist/Playlist";
 import Nav from "./nav/Nav";
 import { useState, useRef, useEffect } from "react";
 function View(props) {
+  const [title, setTitle] = useState("Home");
+  useEffect(() => {
+    document.title = `Spotify ${title ? `- ${title}` : null}`;
+  }, [title]);
   const viewRef = useRef(0);
   const [opacity, setOpacity] = useState("");
   const [nav, setNav] = useState("");
@@ -38,9 +42,9 @@ function View(props) {
     getScroll();
     const ref = viewRef.current;
     ref.addEventListener("scroll", getScroll);
-    console.log("Added");
+    // console.log("Added");
     return () => {
-      console.log("Removed");
+      // console.log("Removed");
       ref.removeEventListener("scroll", getScroll);
     };
   }, [nav]);
@@ -55,17 +59,28 @@ function View(props) {
         opacity={opacity}
       ></Nav>
       <Routes>
-        <Route path="/" element={<Home handleNavBar={handleNavBar}></Home>} />
+        <Route
+          path="/"
+          element={
+            <Home setTitle={setTitle} handleNavBar={handleNavBar}></Home>
+          }
+        />
         <Route
           path="/search"
           element={
-            <Search search={search} handleNavBar={handleNavBar}></Search>
+            <Search
+              setTitle={setTitle}
+              search={search}
+              handleNavBar={handleNavBar}
+            ></Search>
           }
         />
         <Route path="/playlist">
           <Route
             path="*"
-            element={<Playlist handleNavBar={handleNavBar} />}
+            element={
+              <Playlist setTitle={setTitle} handleNavBar={handleNavBar} />
+            }
           ></Route>
         </Route>
 

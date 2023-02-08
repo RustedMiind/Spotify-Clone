@@ -8,6 +8,9 @@ function Search(props) {
   useEffect(() => {
     props.handleNavBar("Search");
   }, []);
+  useEffect(() => {
+    props.setTitle("Search");
+  }, []);
   return (
     <DataContext.Consumer>
       {(data) => {

@@ -8,6 +8,7 @@ function Playlist(props) {
   const myData = useContext(DataContext);
   const [dataPath, setDataPath] = useState([0, 0]);
   const [playlistFound, setPlaylistFound] = useState(false);
+  useEffect(() => {}, []);
   useEffect(() => {
     props.handleNavBar("Main");
     //   console.log(homeRef.current.scrollTop);
@@ -17,7 +18,7 @@ function Playlist(props) {
       .split("~(");
     const isPlaylist = url[url.length - 2] === "playlist" ? true : false;
     if (isPlaylist) {
-      console.log(playlistPaths);
+      // console.log(playlistPaths);
       for (let i = 0; i < myData.length; i++) {
         for (let j = 0; j < myData[i].cards.length; j++) {
           if (
@@ -25,13 +26,14 @@ function Playlist(props) {
             myData[i].cards[j].name === playlistPaths[1] &&
             myData[i].cards[j].key === parseInt(playlistPaths[2])
           ) {
-            console.log("Found", [i, j], myData[i].cards[j]);
+            // console.log("Found", [i, j], myData[i].cards[j]);
             setPlaylistFound(true);
             setDataPath([i, j]);
+            props.setTitle(myData[i].cards[j].name);
           }
         }
       }
-      console.log("notFound", playlistPaths);
+      // console.log("notFound", playlistPaths);
     }
   }, [location, myData]);
 
