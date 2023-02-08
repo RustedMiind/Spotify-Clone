@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { DataContext } from "../../../App";
+import { NavLink } from "react-router-dom";
 import { PlayCircleFill } from "react-bootstrap-icons";
 import "./search.css";
 
@@ -26,14 +27,15 @@ function Search(props) {
                     ) {
                       return (
                         <div className="card" key={card.key}>
-                          <div
+                          <NavLink
+                            to={`/playlist/${card.type}~(${card.name}~(${card.key}`}
                             className="img"
                             style={{
                               backgroundImage: `url(${card.img})`,
                             }}
                           >
                             <PlayCircleFill className="play-btn" />
-                          </div>
+                          </NavLink>
                           <div className="text-area">
                             <h3 className="title">{card.name}</h3>
                             <p className="about">{card.about}</p>

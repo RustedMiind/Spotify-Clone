@@ -10,6 +10,11 @@
   display: flex;
   width: 100%;
 }
+.side-bar .main-buttons #close {
+  display: none;
+  font-size: 2em;
+  margin: 0.5em;
+}
 
 .side-bar .main-buttons a {
   font-size: 0.9em;
@@ -82,3 +87,5 @@
 .side-bar .playlist-link.active {
   color: var(--font-light);
 }
+
+/* Responsive Mobile Screens */

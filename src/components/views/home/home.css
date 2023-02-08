@@ -53,6 +53,8 @@
   flex-direction: column;
 }
 .top-playlists .container .wide-card {
+  color: var(--font-light);
+  text-decoration: none;
   cursor: pointer;
   transition: background-color 200ms ease-in;
   display: flex;
@@ -64,7 +66,7 @@
   margin: 0 0.6em;
   background-color: var(--bg-medium);
   border-radius: 4px;
-  min-width: 360px;
+  min-width: 200px;
 }
 .top-playlists .container.column .wide-card {
   width: 90%;
@@ -97,6 +99,10 @@
   width: min-content;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.top-playlists .container .wide-card .info p {
+  opacity: 0.7;
+  font-size: 0.9em;
 }
 .top-playlists .container .wide-card .right {
   display: flex;
@@ -218,4 +224,11 @@
 .category .playlists-list .card p {
   font-size: 0.9em;
   color: var(--font-main);
+}
+
+/* Responsive Mobile Screens */
+@media (max-width: 1023px) {
+  .category {
+    padding: 1em 0;
+  }
 }

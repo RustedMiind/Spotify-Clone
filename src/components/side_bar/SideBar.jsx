@@ -9,6 +9,7 @@ import {
   SearchHeartFill,
   // PlusSquare,
   PlusSquareFill,
+  XCircle,
 } from "react-bootstrap-icons";
 import { useEffect, useState } from "react";
 
@@ -20,8 +21,12 @@ function SideBar(props) {
     }
   }, [props]);
   return (
-    <div className="side-bar">
+    <div
+      className={`side-bar ${props.toggleNav ? "hidden" : null}`}
+      onClick={props.toggle}
+    >
       <nav className="main-buttons">
+        <XCircle id="close" onClick={props.toggle} />
         <NavLink to="/">
           {({ isActive }) => (
             <>
@@ -42,7 +47,7 @@ function SideBar(props) {
             </>
           )}
         </NavLink>
-        <NavLink to="/libraries">
+        <NavLink className="disabled" to="/libraries">
           {({ isActive }) => (
             <>
               <span className="icon">
@@ -54,7 +59,7 @@ function SideBar(props) {
         </NavLink>
       </nav>
       <div className="create-playlist-container main-buttons">
-        <NavLink to="/create-playlist">
+        <NavLink className="disabled" to="/create-playlist">
           {({ isActive }) => (
             <>
               <span className="icon">

@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { DataContext } from "../../../App";
 import Category from "./category/Category";
+import { NavLink } from "react-router-dom";
 import "./home.css";
 import { PlayCircleFill } from "react-bootstrap-icons";
 function Home(props) {
@@ -41,7 +42,7 @@ function Home(props) {
                 className="img"
                 style={{
                   backgroundImage:
-                    "url('https://external-preview.redd.it/Jr9BRLcONjxJAmlYqdukiSWbKthrwUQevD6fwZvrlyA.jpg?auto=webp&v=enabled&s=cd94b21f1708caa26ddaa89003523a745fe099eb')",
+                    "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3L8j15H5Bg_eFExGitpf33eX9AlPD5jgD_g&usqp=CAU')",
                 }}
               ></div>
             </div>
@@ -52,7 +53,10 @@ function Home(props) {
                   ? Data[2].cards
                       .map((card) => {
                         return (
-                          <div className="wide-card">
+                          <NavLink
+                            to={`/playlist/${card.type}~(${card.name}~(${card.key}`}
+                            className="wide-card"
+                          >
                             <div className="left">
                               <div
                                 className="img"
@@ -68,7 +72,7 @@ function Home(props) {
                             <div className="right">
                               <PlayCircleFill className="play-btn" />
                             </div>
-                          </div>
+                          </NavLink>
                         );
                       })
                       .filter((item, index) => index < wideCards)

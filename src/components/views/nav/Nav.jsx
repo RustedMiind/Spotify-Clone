@@ -1,16 +1,28 @@
+import { useEffect } from "react";
+import userImage from "./HQwHI.jpg";
 import "./nav.css";
 import {
   ArrowLeftCircleFill,
   ArrowRightCircleFill,
   Search,
+  ArrowBarRight,
 } from "react-bootstrap-icons";
 function Nav(props) {
+  useEffect(() => {
+    props.setSearch("");
+  }, [props.nav]);
   return (
     <nav className="top-nav">
       <div className="background-nav" style={{ opacity: props.opacity }}>
         <div className="background-darkness"></div>
       </div>
       <div className="left">
+        <div
+          onClick={props.toggle}
+          className={`arrow-menu ${props.toggleNav ? null : "hidden"}`}
+        >
+          <ArrowBarRight />
+        </div>
         <div className="arrow">
           <ArrowLeftCircleFill />
         </div>
@@ -38,10 +50,7 @@ function Nav(props) {
           <button className="upgrade">Upgrade</button>
         ) : null}
         <button className="user-settings">
-          <img
-            src="https://miro.medium.com/max/720/1*_ARzR7F_fff_KI14yMKBzw.png"
-            alt=""
-          />
+          <img src={userImage} alt="" />
           <div className="name">Ali Soliman</div>
         </button>
       </div>

@@ -1346,7 +1346,188 @@
         "type": "Album",
         "about": "Ed Sheeran, Maroon 5, Mark Mendy and more",
         "img": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebeb3a132ea888019a38df9ed8/6/en/default",
-        "playlist": []
+        "playlist": [
+          {
+            "id": "1",
+            "img": "https://i.scdn.co/image/ab67616d0000485102854a7060fccc1a66a4b5ad",
+            "title": "Rich Flex",
+            "by": "Drake, 21 Savage",
+            "albums": "Her Loss",
+            "date": "Drake, 21 Savage",
+            "duration": "3:59"
+          },
+          {
+            "id": "2",
+            "img": "https://i.scdn.co/image/ab67616d000048519478c87599550dd73bfa7e02",
+            "title": "Circles",
+            "by": "Post Malone",
+            "albums": "Hollywood's Bleeding",
+            "date": "Post Malone",
+            "duration": "3:35"
+          },
+          {
+            "id": "3",
+            "img": "https://i.scdn.co/image/ab67616d00004851d5d1cc65dfc6163a8bcfaf80",
+            "title": "Drive By",
+            "by": "Fivio Foreign",
+            "albums": "800 BC",
+            "date": "Fivio Foreign",
+            "duration": "2:31"
+          },
+          {
+            "id": "4",
+            "img": "https://i.scdn.co/image/ab67616d000048510bffddcd4c83baab8303c44d",
+            "title": "Goosebumps",
+            "by": "Travis Scott, Kendrick Lamar",
+            "albums": "The Hate U Give (Original Motion Picture Soundtrack)",
+            "date": "Travis Scott, Kendrick Lamar",
+            "duration": "4:03"
+          },
+          {
+            "id": "5",
+            "img": "https://i.scdn.co/image/ab67616d0000485141e31d6ea1d493dd77933ee5",
+            "title": "STAY (with Justin Bieber)",
+            "by": "The Kid LAROI, Justin Bieber",
+            "albums": "STAY (with Justin Bieber)",
+            "date": "The Kid LAROI, Justin Bieber",
+            "duration": "2:21"
+          },
+          {
+            "id": "6",
+            "img": "https://i.scdn.co/image/ab67616d0000485192bb8047753d97ff274b2f5f",
+            "title": "1400 / 999 Freestyle",
+            "by": "Trippie Redd, Juice WRLD",
+            "albums": "A Love Letter To You 3",
+            "date": "Trippie Redd, Juice WRLD",
+            "duration": "2:55"
+          },
+          {
+            "id": "7",
+            "img": "https://i.scdn.co/image/ab67616d00004851600adbc750285ea1a8da249f",
+            "title": "The Box",
+            "by": "Roddy Ricch",
+            "albums": "Please Excuse Me for Being Antisocial",
+            "date": "Roddy Ricch",
+            "duration": "3:16"
+          },
+          {
+            "id": "8",
+            "img": "https://i.scdn.co/image/ab67616d00004851bba7cfaf7c59ff0898acba1f",
+            "title": "Toosie Slide",
+            "by": "Drake",
+            "albums": "Dark Lane Demo Tapes",
+            "date": "Drake",
+            "duration": "4:07"
+          },
+          {
+            "id": "9",
+            "img": "https://i.scdn.co/image/ab67616d0000485134362676667a4322838ccc97",
+            "title": "I Like You (A Happier Song) (with Doja Cat)",
+            "by": "Post Malone, Doja Cat",
+            "albums": "Twelve Carat Toothache",
+            "date": "Post Malone, Doja Cat",
+            "duration": "3:12"
+          },
+          {
+            "id": "10",
+            "img": "https://i.scdn.co/image/ab67616d00004851580a07f13ece1bd30d37bd80",
+            "title": "Astronaut In The Ocean",
+            "by": "Masked Wolf",
+            "albums": "Astronomical",
+            "date": "Masked Wolf",
+            "duration": "2:12"
+          },
+          {
+            "id": "11",
+            "img": "https://i.scdn.co/image/ab67616d00004851e42b5fea4ac4c3d6328b622b",
+            "title": "HIGHEST IN THE ROOM",
+            "by": "Travis Scott",
+            "albums": "HIGHEST IN THE ROOM",
+            "date": "Travis Scott",
+            "duration": "2:55"
+          },
+          {
+            "id": "12",
+            "img": "https://i.scdn.co/image/ab67616d0000485168968350c2550e36d96344ee",
+            "title": "Bad Habit",
+            "by": "Steve Lacy",
+            "albums": "Gemini Rights",
+            "date": "Steve Lacy",
+            "duration": "3:52"
+          },
+          {
+            "id": "13",
+            "img": "https://i.scdn.co/image/ab67616d000048519cfbef2da8bf6689cb30e13e",
+            "title": "Mac 10",
+            "by": "Trippie Redd, Lil Baby, Lil Duke",
+            "albums": "Mac 10",
+            "date": "Trippie Redd, Lil Baby, Lil Duke",
+            "duration": "2:07"
+          },
+          {
+            "id": "14",
+            "img": "https://i.scdn.co/image/ab67616d000048510824105a6282782aaabb0584",
+            "title": "Blueberry Faygo",
+            "by": "Lil Mosey",
+            "albums": "Certified Hitmaker",
+            "date": "Lil Mosey",
+            "duration": "2:42"
+          },
+          {
+            "id": "15",
+            "img": "https://i.scdn.co/image/ab67616d00004851be955a885d12b9e3ad44d122",
+            "title": "Behind Barz - Bonus",
+            "by": "Drake",
+            "albums": "Behind Barz (Bonus)",
+            "date": "Drake",
+            "duration": "2:43"
+          },
+          {
+            "id": "16",
+            "img": "https://i.scdn.co/image/ab67616d000048519478c87599550dd73bfa7e02",
+            "title": "Sunflower - Spider-Man: Into the Spider-Verse",
+            "by": "Post Malone, Swae Lee",
+            "albums": "Hollywood's Bleeding",
+            "date": "Post Malone, Swae Lee",
+            "duration": "2:37"
+          },
+          {
+            "id": "17",
+            "img": "https://i.scdn.co/image/ab67616d000048519ca0c952f130e28025209cf0",
+            "title": "Lemonade (feat. Gunna, Don Toliver & NAV)",
+            "by": "Internet Money, Gunna, Don Toliver, NAV",
+            "albums": "B4 The Storm",
+            "date": "Internet Money, Gunna, Don Toliver, NAV",
+            "duration": "3:15"
+          },
+          {
+            "id": "18",
+            "img": "https://i.scdn.co/image/ab67616d000048510eb9240c0c5bbba4a0495587",
+            "title": "BUTTERFLY EFFECT",
+            "by": "Travis Scott",
+            "albums": "ASTROWORLD",
+            "date": "Travis Scott",
+            "duration": "3:10"
+          },
+          {
+            "id": "19",
+            "img": "https://i.scdn.co/image/ab67616d00004851a53643fc03785efb9926443d",
+            "title": "Love Again",
+            "by": "The Kid LAROI",
+            "albums": "Love Again",
+            "date": "The Kid LAROI",
+            "duration": "2:26"
+          },
+          {
+            "id": "20",
+            "img": "https://i.scdn.co/image/ab67616d0000485120e08c8cc23f404d723b5647",
+            "title": "ROCKSTAR (feat. Roddy Ricch)",
+            "by": "DaBaby, Roddy Ricch",
+            "albums": "BLAME IT ON BABY",
+            "date": "DaBaby, Roddy Ricch",
+            "duration": "3:01"
+          }
+        ]
       },
       {
         "key": 3,
@@ -1354,7 +1535,278 @@
         "type": "Album",
         "about": "Ed Sheeran, Maroon 5, Mark Mendy and more",
         "img": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb3c02f4fb4cc9187c488afd50/3/en/default",
-        "playlist": []
+        "playlist": [
+          {
+            "id": "1",
+            "img": "https://i.scdn.co/image/ab67616d00004851da27c239b4c6b64a12e05bfc",
+            "title": "Talk To Me",
+            "by": "Mark Mendy, Séb Mont",
+            "albums": "Talk To Me",
+            "date": "Mark Mendy, Séb Mont",
+            "duration": "2:27"
+          },
+          {
+            "id": "2",
+            "img": "https://i.scdn.co/image/ab67616d000048515bfd8e87768f2a2d807fc7b2",
+            "title": "Angel Falls",
+            "by": "Frank Walker, Sterling Fox",
+            "albums": "24",
+            "date": "Frank Walker, Sterling Fox",
+            "duration": "3:57"
+          },
+          {
+            "id": "3",
+            "img": "https://i.scdn.co/image/ab67616d0000485104d965bb6d7c1e61f23a0d1c",
+            "title": "Take Me",
+            "by": "William Black, Matte, RUNN",
+            "albums": "Take Me",
+            "date": "William Black, Matte, RUNN",
+            "duration": "3:12"
+          },
+          {
+            "id": "4",
+            "img": "https://i.scdn.co/image/ab67616d000048517cf66d0d1155b9e0a1ea386b",
+            "title": "COULD'VE HAD IT ALL",
+            "by": "CRÈME",
+            "albums": "LOVELAND",
+            "date": "CRÈME",
+            "duration": "2:21"
+          },
+          {
+            "id": "5",
+            "img": "https://i.scdn.co/image/ab67616d00004851ef24c3fdbf856340d55cfeb2",
+            "title": "Shivers",
+            "by": "Ed Sheeran",
+            "albums": "=",
+            "date": "Ed Sheeran",
+            "duration": "3:27"
+          },
+          {
+            "id": "6",
+            "img": "https://i.scdn.co/image/ab67616d00004851a91c10fe9472d9bd89802e5a",
+            "title": "good 4 u",
+            "by": "Olivia Rodrigo",
+            "albums": "SOUR",
+            "date": "Olivia Rodrigo",
+            "duration": "2:58"
+          },
+          {
+            "id": "7",
+            "img": "https://i.scdn.co/image/ab67616d00004851a935e4689f15953311772cc4",
+            "title": "Unholy (feat. Kim Petras)",
+            "by": "Sam Smith, Kim Petras",
+            "albums": "Unholy (feat. Kim Petras)",
+            "date": "Sam Smith, Kim Petras",
+            "duration": "2:36"
+          },
+          {
+            "id": "8",
+            "img": "https://i.scdn.co/image/ab67616d00004851c05dc404a6e3efb2a3ce4da5",
+            "title": "Summertime",
+            "by": "Mitchy Katawazi, André Katawazi, NASHUP",
+            "albums": "Summertime",
+            "date": "Mitchy Katawazi, André Katawazi, NASHUP",
+            "duration": "2:56"
+          },
+          {
+            "id": "9",
+            "img": "https://i.scdn.co/image/ab67616d00004851495ce6da9aeb159e94eaa453",
+            "title": "Closer",
+            "by": "The Chainsmokers, Halsey",
+            "albums": "Closer",
+            "date": "The Chainsmokers, Halsey",
+            "duration": "4:04"
+          },
+          {
+            "id": "10",
+            "img": "https://i.scdn.co/image/ab67616d000048511391b1fdb63da53e5b112224",
+            "title": "SNAP",
+            "by": "Rosa Linn",
+            "albums": "SNAP",
+            "date": "Rosa Linn",
+            "duration": "2:59"
+          },
+          {
+            "id": "11",
+            "img": "https://i.scdn.co/image/ab67616d00004851456ce8db7c5597fac7e22b36",
+            "title": "Emotions",
+            "by": "Mark Mendy, Paradigm",
+            "albums": "Emotions",
+            "date": "Mark Mendy, Paradigm",
+            "duration": "2:52"
+          },
+          {
+            "id": "12",
+            "img": "https://i.scdn.co/image/ab67616d00004851ef24c3fdbf856340d55cfeb2",
+            "title": "Bad Habits",
+            "by": "Ed Sheeran",
+            "albums": "=",
+            "date": "Ed Sheeran",
+            "duration": "3:50"
+          },
+          {
+            "id": "13",
+            "img": "https://i.scdn.co/image/ab67616d00004851a91c10fe9472d9bd89802e5a",
+            "title": "drivers license",
+            "by": "Olivia Rodrigo",
+            "albums": "SOUR",
+            "date": "Olivia Rodrigo",
+            "duration": "4:02"
+          },
+          {
+            "id": "14",
+            "img": "https://i.scdn.co/image/ab67616d00004851b11bdc91cb9ac6b14f5c1dae",
+            "title": "I'm Not The Only One",
+            "by": "Sam Smith",
+            "albums": "In The Lonely Hour",
+            "date": "Sam Smith",
+            "duration": "3:59"
+          },
+          {
+            "id": "15",
+            "img": "https://i.scdn.co/image/ab67616d00004851b817e721691aff3d67f26c04",
+            "title": "About Damn Time",
+            "by": "Lizzo",
+            "albums": "About Damn Time",
+            "date": "Lizzo",
+            "duration": "3:11"
+          },
+          {
+            "id": "16",
+            "img": "https://i.scdn.co/image/ab67616d000048512956e2f90a932a5d1b487b34",
+            "title": "Broken Hearted",
+            "by": "ARIA",
+            "albums": "Broken Hearted",
+            "date": "ARIA",
+            "duration": "2:05"
+          },
+          {
+            "id": "17",
+            "img": "https://i.scdn.co/image/ab67616d000048510ed2184bf3fb4466d623a874",
+            "title": "Sunroof",
+            "by": "Nicky Youre, dazy",
+            "albums": "Sunroof",
+            "date": "Nicky Youre, dazy",
+            "duration": "2:43"
+          },
+          {
+            "id": "18",
+            "img": "https://i.scdn.co/image/ab67616d0000485104c1892075ab81b54519c73a",
+            "title": "Rubberband",
+            "by": "Mark Mendy, Sistek",
+            "albums": "Rubberband",
+            "date": "Mark Mendy, Sistek",
+            "duration": "2:26"
+          },
+          {
+            "id": "19",
+            "img": "https://i.scdn.co/image/ab67616d00004851ba5db46f4b838ef6027e6f96",
+            "title": "Shape of You",
+            "by": "Ed Sheeran",
+            "albums": "÷ (Deluxe)",
+            "date": "Ed Sheeran",
+            "duration": "3:53"
+          },
+          {
+            "id": "20",
+            "img": "https://i.scdn.co/image/ab67616d000048512842f743ebd32235bceb43d3",
+            "title": "abcdefu",
+            "by": "GAYLE",
+            "albums": "abcdefu",
+            "date": "GAYLE",
+            "duration": "2:48"
+          },
+          {
+            "id": "21",
+            "img": "https://i.scdn.co/image/ab67616d0000485149caa4fc6f962057ba65576a",
+            "title": "Levitating (feat. DaBaby)",
+            "by": "Dua Lipa, DaBaby",
+            "albums": "Levitating (feat. DaBaby)",
+            "date": "Dua Lipa, DaBaby",
+            "duration": "3:23"
+          },
+          {
+            "id": "22",
+            "img": "https://i.scdn.co/image/ab67616d000048510c13d3d5a503c84fcc60ae94",
+            "title": "Paris",
+            "by": "The Chainsmokers",
+            "albums": "Memories...Do Not Open",
+            "date": "The Chainsmokers",
+            "duration": "3:41"
+          },
+          {
+            "id": "23",
+            "img": "https://i.scdn.co/image/ab67616d000048513bbead9d51544da198470aef",
+            "title": "I'm Wrong",
+            "by": "ARIA",
+            "albums": "I'm Wrong",
+            "date": "ARIA",
+            "duration": "2:22"
+          },
+          {
+            "id": "24",
+            "img": "https://i.scdn.co/image/ab67616d000048518e8197111f9d57793a5e7eff",
+            "title": "Dance Monkey",
+            "by": "Tones And I",
+            "albums": "Welcome To The Madhouse (Deluxe)",
+            "date": "Tones And I",
+            "duration": "3:29"
+          },
+          {
+            "id": "25",
+            "img": "https://i.scdn.co/image/ab67616d00004851fc3ff54493fcc890bcaa036c",
+            "title": "I'm Not Here To Make Friends",
+            "by": "Sam Smith, Calvin Harris, Jessie Reyez",
+            "albums": "Gloria",
+            "date": "Sam Smith, Calvin Harris, Jessie Reyez",
+            "duration": "3:49"
+          },
+          {
+            "id": "26",
+            "img": "https://i.scdn.co/image/ab67616d0000485113b3e37318a0c247b550bccd",
+            "title": "Thinking out Loud",
+            "by": "Ed Sheeran",
+            "albums": "x (Deluxe Edition)",
+            "date": "Ed Sheeran",
+            "duration": "4:41"
+          },
+          {
+            "id": "27",
+            "img": "https://i.scdn.co/image/ab67616d000048515ec8f1b05457e900bc7562fc",
+            "title": "Carbon",
+            "by": "Mark Mendy, Conan Mac",
+            "albums": "Carbon",
+            "date": "Mark Mendy, Conan Mac",
+            "duration": "2:33"
+          },
+          {
+            "id": "28",
+            "img": "https://i.scdn.co/image/ab67616d000048518583df1a14bea9175f9ac520",
+            "title": "Don't Start Now",
+            "by": "Dua Lipa",
+            "albums": "Don't Start Now",
+            "date": "Dua Lipa",
+            "duration": "3:03"
+          },
+          {
+            "id": "29",
+            "img": "https://i.scdn.co/image/ab67616d0000485133ec419b81376c2598c513dd",
+            "title": "CRAVE",
+            "by": "CRÈME",
+            "albums": "CRAVE",
+            "date": "CRÈME",
+            "duration": "2:30"
+          },
+          {
+            "id": "30",
+            "img": "https://i.scdn.co/image/ab67616d00004851a91c10fe9472d9bd89802e5a",
+            "title": "favorite crime",
+            "by": "Olivia Rodrigo",
+            "albums": "SOUR",
+            "date": "Olivia Rodrigo",
+            "duration": "2:32"
+          }
+        ]
       },
       {
         "key": 4,
@@ -1362,7 +1814,188 @@
         "type": "Album",
         "about": "Ed Sheeran, Maroon 5, Mark Mendy and more",
         "img": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb09e3445cef22163eb8d45371/4/en/default",
-        "playlist": []
+        "playlist": [
+          {
+            "id": "1",
+            "img": "https://i.scdn.co/image/ab67616d00004851bb54dde68cd23e2a268ae0f5",
+            "title": "Anti-Hero",
+            "by": "Taylor Swift",
+            "albums": "Midnights",
+            "date": "Taylor Swift",
+            "duration": "3:20"
+          },
+          {
+            "id": "2",
+            "img": "https://i.scdn.co/image/ab67616d0000485157dd31ec4e9dbc7f4238f69a",
+            "title": "Escapism.",
+            "by": "RAYE, 070 Shake",
+            "albums": "Escapism. (Sped Up)",
+            "date": "RAYE, 070 Shake",
+            "duration": "4:32"
+          },
+          {
+            "id": "3",
+            "img": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
+            "title": "Sugar",
+            "by": "Maroon 5",
+            "albums": "V",
+            "date": "Maroon 5",
+            "duration": "3:55"
+          },
+          {
+            "id": "4",
+            "img": "https://i.scdn.co/image/ab67616d00004851f429549123dbe8552764ba1d",
+            "title": "Flowers",
+            "by": "Miley Cyrus",
+            "albums": "Flowers",
+            "date": "Miley Cyrus",
+            "duration": "3:20"
+          },
+          {
+            "id": "5",
+            "img": "https://i.scdn.co/image/ab67616d00004851be82673b5f79d9658ec0a9fd",
+            "title": "MONTERO (Call Me By Your Name)",
+            "by": "Lil Nas X",
+            "albums": "MONTERO",
+            "date": "Lil Nas X",
+            "duration": "2:17"
+          },
+          {
+            "id": "6",
+            "img": "https://i.scdn.co/image/ab67616d00004851c6af5ffa661a365b77df6ef6",
+            "title": "Save Your Tears (with Ariana Grande) (Remix)",
+            "by": "The Weeknd, Ariana Grande",
+            "albums": "Save Your Tears (Remix)",
+            "date": "The Weeknd, Ariana Grande",
+            "duration": "3:11"
+          },
+          {
+            "id": "7",
+            "img": "https://i.scdn.co/image/ab67616d00004851b46f74097655d7f353caab14",
+            "title": "As It Was",
+            "by": "Harry Styles",
+            "albums": "As It Was",
+            "date": "Harry Styles",
+            "duration": "2:47"
+          },
+          {
+            "id": "8",
+            "img": "https://i.scdn.co/image/ab67616d00004851e6095c382c2853667c1623eb",
+            "title": "Señorita",
+            "by": "Shawn Mendes, Camila Cabello",
+            "albums": "Señorita",
+            "date": "Shawn Mendes, Camila Cabello",
+            "duration": "3:10"
+          },
+          {
+            "id": "9",
+            "img": "https://i.scdn.co/image/ab67616d00004851f60070dce96a2c1b70cf6ff0",
+            "title": "Grenade",
+            "by": "Bruno Mars",
+            "albums": "Doo-Wops & Hooligans",
+            "date": "Bruno Mars",
+            "duration": "3:42"
+          },
+          {
+            "id": "10",
+            "img": "https://i.scdn.co/image/ab67616d000048517582f40c3a7837eb2648a8af",
+            "title": "Payphone",
+            "by": "Maroon 5, Wiz Khalifa",
+            "albums": "Overexposed",
+            "date": "Maroon 5, Wiz Khalifa",
+            "duration": "3:51"
+          },
+          {
+            "id": "11",
+            "img": "https://i.scdn.co/image/ab67616d00004851bb54dde68cd23e2a268ae0f5",
+            "title": "Lavender Haze",
+            "by": "Taylor Swift",
+            "albums": "Midnights",
+            "date": "Taylor Swift",
+            "duration": "3:22"
+          },
+          {
+            "id": "12",
+            "img": "https://i.scdn.co/image/ab67616d00004851be82673b5f79d9658ec0a9fd",
+            "title": "THATS WHAT I WANT",
+            "by": "Lil Nas X",
+            "albums": "MONTERO",
+            "date": "Lil Nas X",
+            "duration": "2:23"
+          },
+          {
+            "id": "13",
+            "img": "https://i.scdn.co/image/ab67616d000048518863bc11d2aa12b54f5aeb36",
+            "title": "Blinding Lights",
+            "by": "The Weeknd",
+            "albums": "After Hours",
+            "date": "The Weeknd",
+            "duration": "3:20"
+          },
+          {
+            "id": "14",
+            "img": "https://i.scdn.co/image/ab67616d0000485177fdcfda6535601aff081b6a",
+            "title": "Watermelon Sugar",
+            "by": "Harry Styles",
+            "albums": "Fine Line",
+            "date": "Harry Styles",
+            "duration": "2:54"
+          },
+          {
+            "id": "15",
+            "img": "https://i.scdn.co/image/ab67616d0000485175bd5306fb4669a15ee74eff",
+            "title": "Stitches",
+            "by": "Shawn Mendes",
+            "albums": "Handwritten",
+            "date": "Shawn Mendes",
+            "duration": "3:26"
+          },
+          {
+            "id": "16",
+            "img": "https://i.scdn.co/image/ab67616d0000485147e522adf030a78615cdea06",
+            "title": "Finesse - Remix; feat. Cardi B",
+            "by": "Bruno Mars, Cardi B",
+            "albums": "Finesse (Remix) [feat. Cardi B]",
+            "date": "Bruno Mars, Cardi B",
+            "duration": "3:37"
+          },
+          {
+            "id": "17",
+            "img": "https://i.scdn.co/image/ab67616d00004851442b53773d50e1b5369bb16c",
+            "title": "Animals",
+            "by": "Maroon 5",
+            "albums": "V",
+            "date": "Maroon 5",
+            "duration": "3:51"
+          },
+          {
+            "id": "18",
+            "img": "https://i.scdn.co/image/ab67616d00004851e6f407c7f3a0ec98845e4431",
+            "title": "Ghost",
+            "by": "Justin Bieber",
+            "albums": "Justice",
+            "date": "Justin Bieber",
+            "duration": "2:33"
+          },
+          {
+            "id": "19",
+            "img": "https://i.scdn.co/image/ab67616d00004851ba26678947112dff3c3158bf",
+            "title": "INDUSTRY BABY (feat. Jack Harlow)",
+            "by": "Lil Nas X, Jack Harlow",
+            "albums": "INDUSTRY BABY (feat. Jack Harlow)",
+            "date": "Lil Nas X, Jack Harlow",
+            "duration": "3:32"
+          },
+          {
+            "id": "20",
+            "img": "https://i.scdn.co/image/ab67616d000048517fcead687e99583072cc217b",
+            "title": "Can't Feel My Face",
+            "by": "The Weeknd",
+            "albums": "Beauty Behind The Madness",
+            "date": "The Weeknd",
+            "duration": "3:33"
+          }
+        ]
       },
       {
         "key": 5,
@@ -1370,7 +2003,188 @@
         "type": "Album",
         "about": "Ed Sheeran, Maroon 5, Mark Mendy and more",
         "img": "https://dailymix-images.scdn.co/v2/img/ab6761610000e5eb3d467ace27d3c94063db8cba/5/en/default",
-        "playlist": []
+        "playlist": [
+          {
+            "id": "1",
+            "img": "https://i.scdn.co/image/ab67616d00004851cae5b7c28e0d94221745ed68",
+            "title": "Professor X",
+            "by": "Dave",
+            "albums": "Professor X",
+            "date": "Dave",
+            "duration": "3:37"
+          },
+          {
+            "id": "2",
+            "img": "https://i.scdn.co/image/ab67616d00004851ed35f952bfd00061650746f6",
+            "title": "Bad Luck",
+            "by": "SL, Kenny Beats",
+            "albums": "Bad Luck",
+            "date": "SL, Kenny Beats",
+            "duration": "2:27"
+          },
+          {
+            "id": "3",
+            "img": "https://i.scdn.co/image/ab67616d000048510361444b2a7b06049b55e425",
+            "title": "On Me",
+            "by": "Loski, MizOrMac",
+            "albums": "Music, Trial & Trauma: A Drill Story",
+            "date": "Loski, MizOrMac",
+            "duration": "4:18"
+          },
+          {
+            "id": "4",
+            "img": "https://i.scdn.co/image/ab67616d00004851ba02206a06daa705067874ef",
+            "title": "Day in the Life",
+            "by": "Central Cee",
+            "albums": "Day in the Life",
+            "date": "Central Cee",
+            "duration": "3:08"
+          },
+          {
+            "id": "5",
+            "img": "https://i.scdn.co/image/ab67616d0000485150c8c33cf893033039b21453",
+            "title": "West Ten (with Mabel)",
+            "by": "AJ Tracey, Mabel",
+            "albums": "Flu Game",
+            "date": "AJ Tracey, Mabel",
+            "duration": "3:34"
+          },
+          {
+            "id": "6",
+            "img": "https://i.scdn.co/image/ab67616d00004851f5e95077136e167f5abf46e8",
+            "title": "Down Like That (feat. Rick Ross, Lil Baby & S-X)",
+            "by": "KSI, S-X, Lil Baby, Rick Ross",
+            "albums": "Down Like That (feat. Rick Ross, Lil Baby & S-X)",
+            "date": "KSI, S-X, Lil Baby, Rick Ross",
+            "duration": "2:55"
+          },
+          {
+            "id": "7",
+            "img": "https://i.scdn.co/image/ab67616d00004851e64d6a5253656d32d0874859",
+            "title": "Fashion Week (feat. AJ Tracey & MoStack)",
+            "by": "Steel Banglez, AJ Tracey, MoStack",
+            "albums": "Fashion Week (feat. AJ Tracey & MoStack)",
+            "date": "Steel Banglez, AJ Tracey, MoStack",
+            "duration": "3:21"
+          },
+          {
+            "id": "8",
+            "img": "https://i.scdn.co/image/ab67616d0000485193bd3705124672a86fb7182f",
+            "title": "Rover (feat. DTG)",
+            "by": "S1mba, DTG",
+            "albums": "Rover (feat. DTG)",
+            "date": "S1mba, DTG",
+            "duration": "2:47"
+          },
+          {
+            "id": "9",
+            "img": "https://i.scdn.co/image/ab67616d000048515f40da3a6530388a7fc801ff",
+            "title": "Oh Please",
+            "by": "SL, Tiggs Da Author",
+            "albums": "Everything Good Is Bad",
+            "date": "SL, Tiggs Da Author",
+            "duration": "3:08"
+          },
+          {
+            "id": "10",
+            "img": "https://i.scdn.co/image/ab67616d00004851b19648610030f3da0b4e5cb6",
+            "title": "Must Be",
+            "by": "J Hus",
+            "albums": "Big Conspiracy",
+            "date": "J Hus",
+            "duration": "3:28"
+          },
+          {
+            "id": "11",
+            "img": "https://i.scdn.co/image/ab67616d0000485149bddfb3b0d8f94ae2e7043a",
+            "title": "Loading",
+            "by": "Central Cee",
+            "albums": "Loading",
+            "date": "Central Cee",
+            "duration": "2:53"
+          },
+          {
+            "id": "12",
+            "img": "https://i.scdn.co/image/ab67616d0000485150c8c33cf893033039b21453",
+            "title": "Dinner Guest (feat. MoStack)",
+            "by": "AJ Tracey, MoStack",
+            "albums": "Flu Game",
+            "date": "AJ Tracey, MoStack",
+            "duration": "3:18"
+          },
+          {
+            "id": "13",
+            "img": "https://i.scdn.co/image/ab67616d00004851db469529a35c43649be653a7",
+            "title": "Voices (feat. Oliver Tree)",
+            "by": "KSI, Oliver Tree",
+            "albums": "Voices (feat. Oliver Tree)",
+            "date": "KSI, Oliver Tree",
+            "duration": "3:08"
+          },
+          {
+            "id": "14",
+            "img": "https://i.scdn.co/image/ab67616d00004851f5d3d382455ad9c232f81f72",
+            "title": "Wife Me",
+            "by": "RAYE, Steel Banglez",
+            "albums": "Side Tape",
+            "date": "RAYE, Steel Banglez",
+            "duration": "3:08"
+          },
+          {
+            "id": "15",
+            "img": "https://i.scdn.co/image/ab67616d00004851da5b9c1eb275d48e14d25f3e",
+            "title": "Verdansk",
+            "by": "Dave",
+            "albums": "We're All Alone In This Together",
+            "date": "Dave",
+            "duration": "3:02"
+          },
+          {
+            "id": "16",
+            "img": "https://i.scdn.co/image/ab67616d00004851f60333e801410a539c7a2044",
+            "title": "Tropical",
+            "by": "SL",
+            "albums": "Tropical",
+            "date": "SL",
+            "duration": "3:00"
+          },
+          {
+            "id": "17",
+            "img": "https://i.scdn.co/image/ab67616d00004851f90d6682e83a5e4c3c57399a",
+            "title": "Did You See",
+            "by": "J Hus",
+            "albums": "Common Sense",
+            "date": "J Hus",
+            "duration": "3:01"
+          },
+          {
+            "id": "18",
+            "img": "https://i.scdn.co/image/ab67616d00004851b9de9a4b1bebc55fd4101e4e",
+            "title": "Commitment Issues",
+            "by": "Central Cee",
+            "albums": "Commitment Issues",
+            "date": "Central Cee",
+            "duration": "2:30"
+          },
+          {
+            "id": "19",
+            "img": "https://i.scdn.co/image/ab67616d00004851c66802be82ab680ce70ba32a",
+            "title": "Ladbroke Grove",
+            "by": "AJ Tracey",
+            "albums": "AJ Tracey",
+            "date": "AJ Tracey",
+            "duration": "3:10"
+          },
+          {
+            "id": "20",
+            "img": "https://i.scdn.co/image/ab67616d000048512310b70888c02f8a807b80c5",
+            "title": "Lose",
+            "by": "KSI, Lil Wayne",
+            "albums": "All Over The Place (Deluxe)",
+            "date": "KSI, Lil Wayne",
+            "duration": "3:25"
+          }
+        ]
       },
       {
         "key": 6,
@@ -1378,7 +2192,188 @@
         "type": "Album",
         "about": "Ed Sheeran, Maroon 5, Mark Mendy and more",
         "img": "https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/aAbca4VNfzWuUCQ_FGiEFA==/bmVuZW5lbmVuZW5lbmVuZQ==",
-        "playlist": []
+        "playlist": [
+          {
+            "id": "1",
+            "img": "https://i.scdn.co/image/ab67616d000048513ec9036a9f7289e924194bec",
+            "title": "Tick Tock (feat. 24kGoldn)",
+            "by": "Clean Bandit, Mabel, 24kGoldn",
+            "albums": "Tick Tock (feat. 24kGoldn)",
+            "date": "Clean Bandit, Mabel, 24kGoldn",
+            "duration": "2:58"
+          },
+          {
+            "id": "2",
+            "img": "https://i.scdn.co/image/ab67616d00004851fd5c3010f1c824a54e262f18",
+            "title": "Love Your Voice",
+            "by": "JONY",
+            "albums": "Список твоих мыслей",
+            "date": "JONY",
+            "duration": "2:30"
+          },
+          {
+            "id": "3",
+            "img": "https://i.scdn.co/image/ab67616d00004851bc40354c80fe09394ac7f780",
+            "title": "Dandelions - slowed + reverb",
+            "by": "Ruth B., sped up + slowed, slater",
+            "albums": "Dandelions (slowed + reverb)",
+            "date": "Ruth B., sped up + slowed, slater",
+            "duration": "4:28"
+          },
+          {
+            "id": "4",
+            "img": "https://i.scdn.co/image/ab67616d00004851ec10f247b100da1ce0d80b6d",
+            "title": "My Universe",
+            "by": "Coldplay, BTS",
+            "albums": "Music Of The Spheres",
+            "date": "Coldplay, BTS",
+            "duration": "3:46"
+          },
+          {
+            "id": "5",
+            "img": "https://i.scdn.co/image/ab67616d000048517b9639babbe96e25071ec1d4",
+            "title": "Before You Go",
+            "by": "Lewis Capaldi",
+            "albums": "Divinely Uninspired To A Hellish Extent (Extended Edition)",
+            "date": "Lewis Capaldi",
+            "duration": "3:35"
+          },
+          {
+            "id": "6",
+            "img": "https://i.scdn.co/image/ab67616d000048512d8403052919657720de9967",
+            "title": "Butterflies",
+            "by": "Piper Rockelle",
+            "albums": "Butterflies",
+            "date": "Piper Rockelle",
+            "duration": "2:46"
+          },
+          {
+            "id": "7",
+            "img": "https://i.scdn.co/image/ab67616d000048516c0a6e8170a29e2d098671da",
+            "title": "If I Was Your Girlfriend",
+            "by": "Mondays, Lucy",
+            "albums": "Be With You",
+            "date": "Mondays, Lucy",
+            "duration": "3:15"
+          },
+          {
+            "id": "8",
+            "img": "https://i.scdn.co/image/ab67616d000048515d847661ee74db6591c4a30b",
+            "title": "10,000 Hours (with Justin Bieber)",
+            "by": "Dan + Shay, Justin Bieber",
+            "albums": "Good Things",
+            "date": "Dan + Shay, Justin Bieber",
+            "duration": "2:47"
+          },
+          {
+            "id": "9",
+            "img": "https://i.scdn.co/image/ab67616d00004851ec7ee48bf54df1c4d7f67462",
+            "title": "Make Me Do - Chasner Remix",
+            "by": "FÄIS, Chasner",
+            "albums": "Make Me Do (Chasner Remix)",
+            "date": "FÄIS, Chasner",
+            "duration": "2:57"
+          },
+          {
+            "id": "10",
+            "img": "https://i.scdn.co/image/ab67616d00004851f9c073393ff585c0984f2122",
+            "title": "California",
+            "by": "White 2115",
+            "albums": "Rockstar",
+            "date": "White 2115",
+            "duration": "3:12"
+          },
+          {
+            "id": "11",
+            "img": "https://i.scdn.co/image/ab67616d0000485190ee0d4d3906192283bae657",
+            "title": "Bad Boy",
+            "by": "CHUNG HA, Christopher",
+            "albums": "Bad Boy",
+            "date": "CHUNG HA, Christopher",
+            "duration": "3:02"
+          },
+          {
+            "id": "12",
+            "img": "https://i.scdn.co/image/ab67616d00004851913edcaccb2268647d0c495b",
+            "title": "Kesariya",
+            "by": "Pritam, Arijit Singh, Amitabh Bhattacharya",
+            "albums": "Brahmastra (Original Motion Picture Soundtrack)",
+            "date": "Pritam, Arijit Singh, Amitabh Bhattacharya",
+            "duration": "4:28"
+          },
+          {
+            "id": "13",
+            "img": "https://i.scdn.co/image/ab67616d000048510ea4251b347933d7287704b1",
+            "title": "Stereo Hearts (Glee Cast Version)",
+            "by": "Glee Cast",
+            "albums": "Glee Love Songs",
+            "date": "Glee Cast",
+            "duration": "3:31"
+          },
+          {
+            "id": "14",
+            "img": "https://i.scdn.co/image/ab67616d00004851efed5f5998ca13d8e542faa5",
+            "title": "Already There",
+            "by": "CAROLINE",
+            "albums": "FRESHMAN!",
+            "date": "CAROLINE",
+            "duration": "3:31"
+          },
+          {
+            "id": "15",
+            "img": "https://i.scdn.co/image/ab67616d00004851c82a3a298812733df1cb8d26",
+            "title": "Under The Influence (Body Language)",
+            "by": "Chris Brown",
+            "albums": "Under The Influence",
+            "date": "Chris Brown",
+            "duration": "2:28"
+          },
+          {
+            "id": "16",
+            "img": "https://i.scdn.co/image/ab67616d00004851b0a7eef9bfac694187348008",
+            "title": "Cheap Thrills",
+            "by": "Lilly Oxford",
+            "albums": "Cheap Thrills",
+            "date": "Lilly Oxford",
+            "duration": "3:31"
+          },
+          {
+            "id": "17",
+            "img": "https://i.scdn.co/image/ab67616d00004851ca227854eb81ec0b381cf055",
+            "title": "Look at Me Now",
+            "by": "Punch Parade",
+            "albums": "Look at Me Now",
+            "date": "Punch Parade",
+            "duration": "3:09"
+          },
+          {
+            "id": "18",
+            "img": "https://i.scdn.co/image/ab67616d00004851ffbb5bd9ea83111033066254",
+            "title": "Lost In The Wild",
+            "by": "WALK THE MOON",
+            "albums": "What If Nothing",
+            "date": "WALK THE MOON",
+            "duration": "3:55"
+          },
+          {
+            "id": "19",
+            "img": "https://i.scdn.co/image/ab67616d0000485177fdcfda6535601aff081b6a",
+            "title": "Adore You",
+            "by": "Harry Styles",
+            "albums": "Fine Line",
+            "date": "Harry Styles",
+            "duration": "3:27"
+          },
+          {
+            "id": "20",
+            "img": "https://i.scdn.co/image/ab67616d000048517e98a30f3a9af0fb35771ae1",
+            "title": "Breathe",
+            "by": "Years & Years",
+            "albums": "Take Shelter",
+            "date": "Years & Years",
+            "duration": "3:53"
+          }
+        ]
       },
       {
         "key": 7,
@@ -1386,7 +2381,188 @@
         "type": "Album",
         "about": "Ed Sheeran, Maroon 5, Mark Mendy and more",
         "img": "https://newjams-images.scdn.co/image/ab67647800003f8a/dt/v3/release-radar/ab6761610000e5ebe707b87e3f65997f6c09bfff/en",
-        "playlist": []
+        "playlist": [
+          {
+            "id": "1",
+            "img": "https://i.scdn.co/image/ab67616d00004851108a6009ede6da650b9bf0c1",
+            "title": "Empty Diary - Slowed And Reverb",
+            "by": "Grim Delarosa, Mickey Valen, Noé",
+            "albums": "Empty Diary (Slowed And Reverb)",
+            "date": "Grim Delarosa, Mickey Valen, Noé",
+            "duration": "3:52"
+          },
+          {
+            "id": "2",
+            "img": "https://i.scdn.co/image/ab67616d000048517c26fc7e464eff4c6307a586",
+            "title": "Wake Up",
+            "by": "WinWel, CRÈME",
+            "albums": "Wake Up",
+            "date": "WinWel, CRÈME",
+            "duration": "2:07"
+          },
+          {
+            "id": "3",
+            "img": "https://i.scdn.co/image/ab67616d000048512c8ab73312a9316d90325f1e",
+            "title": "Sure Thing Sped Up - Remix",
+            "by": "Xanemusic",
+            "albums": "TikTok Viral Songs 2023 (Remix)",
+            "date": "Xanemusic",
+            "duration": "2:59"
+          },
+          {
+            "id": "4",
+            "img": "https://i.scdn.co/image/ab67616d0000485130984de5af9f692ad01bd2f1",
+            "title": "KRZY TRAIN (feat. Travis Scott)",
+            "by": "Trippie Redd, Travis Scott",
+            "albums": "KRZY TRAIN (feat. Travis Scott)",
+            "date": "Trippie Redd, Travis Scott",
+            "duration": "3:50"
+          },
+          {
+            "id": "5",
+            "img": "https://i.scdn.co/image/ab67616d000048515f8f0d058f9ec3accefd9a19",
+            "title": "JOC IN '06",
+            "by": "DaBaby",
+            "albums": "JOC IN '06",
+            "date": "DaBaby",
+            "duration": "2:50"
+          },
+          {
+            "id": "6",
+            "img": "https://i.scdn.co/image/ab67616d00004851a53643fc03785efb9926443d",
+            "title": "Love Again",
+            "by": "The Kid LAROI",
+            "albums": "Love Again",
+            "date": "The Kid LAROI",
+            "duration": "2:26"
+          },
+          {
+            "id": "7",
+            "img": "https://i.scdn.co/image/ab67616d00004851cc7742820d41a6764ed7ebf3",
+            "title": "Birman",
+            "by": "Melisa, Serena",
+            "albums": "Birman",
+            "date": "Melisa, Serena",
+            "duration": "2:19"
+          },
+          {
+            "id": "8",
+            "img": "https://i.scdn.co/image/ab67616d00004851e7394926d34dc63fa76102a0",
+            "title": "My Stupid Heart",
+            "by": "Walk Off the Earth",
+            "albums": "My Stupid Heart",
+            "date": "Walk Off the Earth",
+            "duration": "2:40"
+          },
+          {
+            "id": "9",
+            "img": "https://i.scdn.co/image/ab67616d0000485138876c52ff708856ae680d7e",
+            "title": "drunk text",
+            "by": "Henry Moodie",
+            "albums": "drunk text",
+            "date": "Henry Moodie",
+            "duration": "3:07"
+          },
+          {
+            "id": "10",
+            "img": "https://i.scdn.co/image/ab67616d00004851b14f410ae82388b44af17eff",
+            "title": "Baby Don't Cry (feat. Young Thug)",
+            "by": "Philmon Lee, Young Thug",
+            "albums": "Baby Don't Cry (feat. Young Thug)",
+            "date": "Philmon Lee, Young Thug",
+            "duration": "3:04"
+          },
+          {
+            "id": "11",
+            "img": "https://i.scdn.co/image/ab67616d00004851ab20fc40dbcf1ac02d4a61dd",
+            "title": "Anthracite",
+            "by": "ASHE 22, Central Cee",
+            "albums": "Anthracite",
+            "date": "ASHE 22, Central Cee",
+            "duration": "2:56"
+          },
+          {
+            "id": "12",
+            "img": "https://i.scdn.co/image/ab67616d00004851cee4f53892ab0f574b81b68f",
+            "title": "F64",
+            "by": "Ed Sheeran",
+            "albums": "F64",
+            "date": "Ed Sheeran",
+            "duration": "3:24"
+          },
+          {
+            "id": "13",
+            "img": "https://i.scdn.co/image/ab67616d000048512dbf9b3d85d0b75392e40238",
+            "title": "If I Ever",
+            "by": "Conor Maynard",
+            "albums": "If I Ever",
+            "date": "Conor Maynard",
+            "duration": "3:14"
+          },
+          {
+            "id": "14",
+            "img": "https://i.scdn.co/image/ab67616d000048516061d616bd5821bf7296274d",
+            "title": "I Go Dancing (feat. Ella Henderson)",
+            "by": "Frank Walker, Ella Henderson",
+            "albums": "I Go Dancing (feat. Ella Henderson)",
+            "date": "Frank Walker, Ella Henderson",
+            "duration": "2:42"
+          },
+          {
+            "id": "15",
+            "img": "https://i.scdn.co/image/ab67616d00004851ebdbc0a580610f18ce4ee88b",
+            "title": "Runaway",
+            "by": "Güd Vibez",
+            "albums": "Runaway",
+            "date": "Güd Vibez",
+            "duration": "3:31"
+          },
+          {
+            "id": "16",
+            "img": "https://i.scdn.co/image/ab67616d000048515544e3b03e949a01869b3173",
+            "title": "Prototype",
+            "by": "Adam Dietze",
+            "albums": "The Beginning",
+            "date": "Adam Dietze",
+            "duration": "5:16"
+          },
+          {
+            "id": "17",
+            "img": "https://i.scdn.co/image/ab67616d00004851aa9c98a6e872f39546d90343",
+            "title": "Remember Me",
+            "by": "Bri",
+            "albums": "Remember Me",
+            "date": "Bri",
+            "duration": "3:57"
+          },
+          {
+            "id": "18",
+            "img": "https://i.scdn.co/image/ab67616d00004851e84d00727a8ddb55a18cfc23",
+            "title": "Hooked (Hot Stuff)",
+            "by": "RIKA, Galantis",
+            "albums": "Hooked (Hot Stuff)",
+            "date": "RIKA, Galantis",
+            "duration": "2:51"
+          },
+          {
+            "id": "19",
+            "img": "https://i.scdn.co/image/ab67616d00004851679276f9312a0f5e1b8e9ab4",
+            "title": "Bad Boy",
+            "by": "Rochelle Diamante",
+            "albums": "Bad Boy",
+            "date": "Rochelle Diamante",
+            "duration": "3:10"
+          },
+          {
+            "id": "20",
+            "img": "https://i.scdn.co/image/ab67616d0000485142275074d61e5b2130bb142f",
+            "title": "Odo",
+            "by": "Now United",
+            "albums": "Odo",
+            "date": "Now United",
+            "duration": "3:02"
+          }
+        ]
       }
     ]
   },
@@ -1608,206 +2784,204 @@
         "about": "Ed Sheeran, Maroon 5, Mark Mendy and more",
         "img": "https://pub-static.fotor.com/assets/projects/pages/86c4834c159a448e834fdda3921569fe/purple-eye-summer-exhibition-2023-09e22c84d73742688f293606d00ac3db.jpg",
         "playlist": [
-          [
-            {
-              "id": "1",
-              "img": "https://i.scdn.co/image/ab67616d00004851b3de5764cc02f94714487c86",
-              "title": "ily (i love you baby) (feat. Emilee)",
-              "by": "Surf Mesa, Emilee",
-              "albums": "ily (i love you baby) (feat. Emilee)",
-              "date": "Surf Mesa, Emilee",
-              "duration": "2:56"
-            },
-            {
-              "id": "2",
-              "img": "https://i.scdn.co/image/ab67616d0000485191b709ced968e29e8f00dfe3",
-              "title": "Invisible",
-              "by": "Julius Dreisig, Zeus X Crona",
-              "albums": "Invisible",
-              "date": "Julius Dreisig, Zeus X Crona",
-              "duration": "3:21"
-            },
-            {
-              "id": "3",
-              "img": "https://i.scdn.co/image/ab67616d0000485181e7b76f8d878c2f83a84502",
-              "title": "Dynasty",
-              "by": "Elephante, MIIA",
-              "albums": "I Am The Elephante",
-              "date": "Elephante, MIIA",
-              "duration": "3:21"
-            },
-            {
-              "id": "4",
-              "img": "https://i.scdn.co/image/ab67616d00004851fe857e71cd0d93c2e55c5ae2",
-              "title": "Lullaby",
-              "by": "R3HAB, Mike Williams",
-              "albums": "The Wave",
-              "date": "R3HAB, Mike Williams",
-              "duration": "2:40"
-            },
-            {
-              "id": "5",
-              "img": "https://i.scdn.co/image/ab67616d0000485161fe6d3a50c0beaa3cfe33e9",
-              "title": "I'm a Mess",
-              "by": "Bebe Rexha",
-              "albums": "Expectations",
-              "date": "Bebe Rexha",
-              "duration": "3:15"
-            },
-            {
-              "id": "6",
-              "img": "https://i.scdn.co/image/ab67616d00004851a108e07c661f9fc54de9c43a",
-              "title": "Lily",
-              "by": "Alan Walker, K-391, Emelie Hollow",
-              "albums": "Different World",
-              "date": "Alan Walker, K-391, Emelie Hollow",
-              "duration": "3:15"
-            },
-            {
-              "id": "7",
-              "img": "https://i.scdn.co/image/ab67616d0000485164e0ff721439184b6ecdd4de",
-              "title": "Safe",
-              "by": "Daya",
-              "albums": "Safe",
-              "date": "Daya",
-              "duration": "3:20"
-            },
-            {
-              "id": "8",
-              "img": "https://i.scdn.co/image/ab67616d000048518fe9fb0dc7790498d309b600",
-              "title": "Insomnia",
-              "by": "Daya",
-              "albums": "Insomnia",
-              "date": "Daya",
-              "duration": "2:59"
-            },
-            {
-              "id": "9",
-              "img": "https://i.scdn.co/image/ab67616d00004851d2aaf635815c265aa1ecdecc",
-              "title": "On My Way",
-              "by": "Alan Walker, Sabrina Carpenter, Farruko",
-              "albums": "On My Way",
-              "date": "Alan Walker, Sabrina Carpenter, Farruko",
-              "duration": "3:13"
-            },
-            {
-              "id": "10",
-              "img": "https://i.scdn.co/image/ab67616d00004851a108e07c661f9fc54de9c43a",
-              "title": "Sing Me to Sleep",
-              "by": "Alan Walker",
-              "albums": "Different World",
-              "date": "Alan Walker",
-              "duration": "3:07"
-            },
-            {
-              "id": "11",
-              "img": "https://i.scdn.co/image/ab67616d00004851a108e07c661f9fc54de9c43a",
-              "title": "Darkside",
-              "by": "Alan Walker, Au/Ra, Tomine Harket",
-              "albums": "Different World",
-              "date": "Alan Walker, Au/Ra, Tomine Harket",
-              "duration": "3:31"
-            },
-            {
-              "id": "12",
-              "img": "https://i.scdn.co/image/ab67616d00004851a108e07c661f9fc54de9c43a",
-              "title": "Diamond Heart",
-              "by": "Alan Walker, Sophia Somajo",
-              "albums": "Different World",
-              "date": "Alan Walker, Sophia Somajo",
-              "duration": "4:00"
-            },
-            {
-              "id": "13",
-              "img": "https://i.scdn.co/image/ab67616d00004851abc40a559829c1a93b92c276",
-              "title": "Safari",
-              "by": "Serena",
-              "albums": "Safari",
-              "date": "Serena",
-              "duration": "3:07"
-            },
-            {
-              "id": "14",
-              "img": "https://i.scdn.co/image/ab67616d00004851ce7c759df6649345584ad37e",
-              "title": "Love Is the Name",
-              "by": "Sofia Carson",
-              "albums": "Love Is the Name",
-              "date": "Sofia Carson",
-              "duration": "3:27"
-            },
-            {
-              "id": "15",
-              "img": "https://i.scdn.co/image/ab67616d0000485103b03e6907c538fea4d4cf34",
-              "title": "Back to Beautiful",
-              "by": "Sofia Carson, Alan Walker",
-              "albums": "Back to Beautiful",
-              "date": "Sofia Carson, Alan Walker",
-              "duration": "3:22"
-            },
-            {
-              "id": "16",
-              "img": "https://i.scdn.co/image/ab67616d0000485180b220d74f21260068d362a6",
-              "title": "Wildside - From \"Adventures in Babysitting\"",
-              "by": "Sabrina Carpenter, Sofia Carson",
-              "albums": "Your Favorite Songs from 100 Disney Channel Original Movies",
-              "date": "Sabrina Carpenter, Sofia Carson",
-              "duration": "3:07"
-            },
-            {
-              "id": "17",
-              "img": "https://i.scdn.co/image/ab67616d00004851624fcb38b8744ee2b15c4132",
-              "title": "Wildcard",
-              "by": "Mickey Valen, Feli Ferraro",
-              "albums": "Wildcard",
-              "date": "Mickey Valen, Feli Ferraro",
-              "duration": "3:15"
-            },
-            {
-              "id": "18",
-              "img": "https://i.scdn.co/image/ab67616d00004851a108e07c661f9fc54de9c43a",
-              "title": "Different World (feat. CORSAK)",
-              "by": "Alan Walker, K-391, Sofia Carson, CORSAK",
-              "albums": "Different World",
-              "date": "Alan Walker, K-391, Sofia Carson, CORSAK",
-              "duration": "3:22"
-            },
-            {
-              "id": "19",
-              "img": "https://i.scdn.co/image/ab67616d00004851c27d89fa8abb3990e2b3a29c",
-              "title": "End Of The Night",
-              "by": "Danny Avila",
-              "albums": "End Of The Night",
-              "date": "Danny Avila",
-              "duration": "3:25"
-            },
-            {
-              "id": "20",
-              "img": "https://i.scdn.co/image/ab67616d00004851459d675aa0b6f3b211357370",
-              "title": "Let Me Down Slowly",
-              "by": "Alec Benjamin",
-              "albums": "Narrated For You",
-              "date": "Alec Benjamin",
-              "duration": "2:49"
-            },
-            {
-              "id": "21",
-              "img": "https://i.scdn.co/image/ab67616d0000485161fe6d3a50c0beaa3cfe33e9",
-              "title": "Knees",
-              "by": "Bebe Rexha",
-              "albums": "Expectations",
-              "date": "Bebe Rexha",
-              "duration": "3:26"
-            },
-            {
-              "id": "22",
-              "img": "https://i.scdn.co/image/ab67616d000048512773b7d6ca91258a83d06783",
-              "title": "On & On",
-              "by": "Cartoon, Daniel Levi",
-              "albums": "On & On",
-              "date": "Cartoon, Daniel Levi",
-              "duration": "3:27"
-            }
-          ]
+          {
+            "id": "1",
+            "img": "https://i.scdn.co/image/ab67616d00004851b3de5764cc02f94714487c86",
+            "title": "ily (i love you baby) (feat. Emilee)",
+            "by": "Surf Mesa, Emilee",
+            "albums": "ily (i love you baby) (feat. Emilee)",
+            "date": "Surf Mesa, Emilee",
+            "duration": "2:56"
+          },
+          {
+            "id": "2",
+            "img": "https://i.scdn.co/image/ab67616d0000485191b709ced968e29e8f00dfe3",
+            "title": "Invisible",
+            "by": "Julius Dreisig, Zeus X Crona",
+            "albums": "Invisible",
+            "date": "Julius Dreisig, Zeus X Crona",
+            "duration": "3:21"
+          },
+          {
+            "id": "3",
+            "img": "https://i.scdn.co/image/ab67616d0000485181e7b76f8d878c2f83a84502",
+            "title": "Dynasty",
+            "by": "Elephante, MIIA",
+            "albums": "I Am The Elephante",
+            "date": "Elephante, MIIA",
+            "duration": "3:21"
+          },
+          {
+            "id": "4",
+            "img": "https://i.scdn.co/image/ab67616d00004851fe857e71cd0d93c2e55c5ae2",
+            "title": "Lullaby",
+            "by": "R3HAB, Mike Williams",
+            "albums": "The Wave",
+            "date": "R3HAB, Mike Williams",
+            "duration": "2:40"
+          },
+          {
+            "id": "5",
+            "img": "https://i.scdn.co/image/ab67616d0000485161fe6d3a50c0beaa3cfe33e9",
+            "title": "I'm a Mess",
+            "by": "Bebe Rexha",
+            "albums": "Expectations",
+            "date": "Bebe Rexha",
+            "duration": "3:15"
+          },
+          {
+            "id": "6",
+            "img": "https://i.scdn.co/image/ab67616d00004851a108e07c661f9fc54de9c43a",
+            "title": "Lily",
+            "by": "Alan Walker, K-391, Emelie Hollow",
+            "albums": "Different World",
+            "date": "Alan Walker, K-391, Emelie Hollow",
+            "duration": "3:15"
+          },
+          {
+            "id": "7",
+            "img": "https://i.scdn.co/image/ab67616d0000485164e0ff721439184b6ecdd4de",
+            "title": "Safe",
+            "by": "Daya",
+            "albums": "Safe",
+            "date": "Daya",
+            "duration": "3:20"
+          },
+          {
+            "id": "8",
+            "img": "https://i.scdn.co/image/ab67616d000048518fe9fb0dc7790498d309b600",
+            "title": "Insomnia",
+            "by": "Daya",
+            "albums": "Insomnia",
+            "date": "Daya",
+            "duration": "2:59"
+          },
+          {
+            "id": "9",
+            "img": "https://i.scdn.co/image/ab67616d00004851d2aaf635815c265aa1ecdecc",
+            "title": "On My Way",
+            "by": "Alan Walker, Sabrina Carpenter, Farruko",
+            "albums": "On My Way",
+            "date": "Alan Walker, Sabrina Carpenter, Farruko",
+            "duration": "3:13"
+          },
+          {
+            "id": "10",
+            "img": "https://i.scdn.co/image/ab67616d00004851a108e07c661f9fc54de9c43a",
+            "title": "Sing Me to Sleep",
+            "by": "Alan Walker",
+            "albums": "Different World",
+            "date": "Alan Walker",
+            "duration": "3:07"
+          },
+          {
+            "id": "11",
+            "img": "https://i.scdn.co/image/ab67616d00004851a108e07c661f9fc54de9c43a",
+            "title": "Darkside",
+            "by": "Alan Walker, Au/Ra, Tomine Harket",
+            "albums": "Different World",
+            "date": "Alan Walker, Au/Ra, Tomine Harket",
+            "duration": "3:31"
+          },
+          {
+            "id": "12",
+            "img": "https://i.scdn.co/image/ab67616d00004851a108e07c661f9fc54de9c43a",
+            "title": "Diamond Heart",
+            "by": "Alan Walker, Sophia Somajo",
+            "albums": "Different World",
+            "date": "Alan Walker, Sophia Somajo",
+            "duration": "4:00"
+          },
+          {
+            "id": "13",
+            "img": "https://i.scdn.co/image/ab67616d00004851abc40a559829c1a93b92c276",
+            "title": "Safari",
+            "by": "Serena",
+            "albums": "Safari",
+            "date": "Serena",
+            "duration": "3:07"
+          },
+          {
+            "id": "14",
+            "img": "https://i.scdn.co/image/ab67616d00004851ce7c759df6649345584ad37e",
+            "title": "Love Is the Name",
+            "by": "Sofia Carson",
+            "albums": "Love Is the Name",
+            "date": "Sofia Carson",
+            "duration": "3:27"
+          },
+          {
+            "id": "15",
+            "img": "https://i.scdn.co/image/ab67616d0000485103b03e6907c538fea4d4cf34",
+            "title": "Back to Beautiful",
+            "by": "Sofia Carson, Alan Walker",
+            "albums": "Back to Beautiful",
+            "date": "Sofia Carson, Alan Walker",
+            "duration": "3:22"
+          },
+          {
+            "id": "16",
+            "img": "https://i.scdn.co/image/ab67616d0000485180b220d74f21260068d362a6",
+            "title": "Wildside - From \"Adventures in Babysitting\"",
+            "by": "Sabrina Carpenter, Sofia Carson",
+            "albums": "Your Favorite Songs from 100 Disney Channel Original Movies",
+            "date": "Sabrina Carpenter, Sofia Carson",
+            "duration": "3:07"
+          },
+          {
+            "id": "17",
+            "img": "https://i.scdn.co/image/ab67616d00004851624fcb38b8744ee2b15c4132",
+            "title": "Wildcard",
+            "by": "Mickey Valen, Feli Ferraro",
+            "albums": "Wildcard",
+            "date": "Mickey Valen, Feli Ferraro",
+            "duration": "3:15"
+          },
+          {
+            "id": "18",
+            "img": "https://i.scdn.co/image/ab67616d00004851a108e07c661f9fc54de9c43a",
+            "title": "Different World (feat. CORSAK)",
+            "by": "Alan Walker, K-391, Sofia Carson, CORSAK",
+            "albums": "Different World",
+            "date": "Alan Walker, K-391, Sofia Carson, CORSAK",
+            "duration": "3:22"
+          },
+          {
+            "id": "19",
+            "img": "https://i.scdn.co/image/ab67616d00004851c27d89fa8abb3990e2b3a29c",
+            "title": "End Of The Night",
+            "by": "Danny Avila",
+            "albums": "End Of The Night",
+            "date": "Danny Avila",
+            "duration": "3:25"
+          },
+          {
+            "id": "20",
+            "img": "https://i.scdn.co/image/ab67616d00004851459d675aa0b6f3b211357370",
+            "title": "Let Me Down Slowly",
+            "by": "Alec Benjamin",
+            "albums": "Narrated For You",
+            "date": "Alec Benjamin",
+            "duration": "2:49"
+          },
+          {
+            "id": "21",
+            "img": "https://i.scdn.co/image/ab67616d0000485161fe6d3a50c0beaa3cfe33e9",
+            "title": "Knees",
+            "by": "Bebe Rexha",
+            "albums": "Expectations",
+            "date": "Bebe Rexha",
+            "duration": "3:26"
+          },
+          {
+            "id": "22",
+            "img": "https://i.scdn.co/image/ab67616d000048512773b7d6ca91258a83d06783",
+            "title": "On & On",
+            "by": "Cartoon, Daniel Levi",
+            "albums": "On & On",
+            "date": "Cartoon, Daniel Levi",
+            "duration": "3:27"
+          }
         ]
       },
       {

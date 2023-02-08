@@ -5,7 +5,7 @@ import Search from "./search/Search";
 import Playlist from "./playlist/Playlist";
 import Nav from "./nav/Nav";
 import { useState, useRef, useEffect } from "react";
-function View() {
+function View(props) {
   const viewRef = useRef(0);
   const [opacity, setOpacity] = useState("");
   const [nav, setNav] = useState("");
@@ -47,6 +47,8 @@ function View() {
   return (
     <div id="view" className="view" ref={viewRef}>
       <Nav
+        toggle={props.toggle}
+        toggleNav={props.toggleNav}
         search={search}
         setSearch={setSearch}
         nav={nav}
@@ -66,6 +68,15 @@ function View() {
             element={<Playlist handleNavBar={handleNavBar} />}
           ></Route>
         </Route>
+
+        <Route
+          path="*"
+          element={
+            <div className="not-found">
+              Error<br></br>Page Not Found
+            </div>
+          }
+        />
       </Routes>
     </div>
   );

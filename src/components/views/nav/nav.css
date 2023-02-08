@@ -45,6 +45,17 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-right: 0.3em;
+}
+.top-nav .left .arrow-menu {
+  display: none;
+  flex-direction: row;
+  color: var(--font-light);
+  align-items: center;
+  justify-content: center;
+}
+.top-nav .left .hidden {
+  display: none;
 }
 .top-nav .left > :first-child.arrow {
   margin-right: 0.2em;
@@ -66,13 +77,13 @@
 
 .top-nav .right button.upgrade {
   border-radius: 40em;
-  font-size: 1.1em;
-  border: 0.15em solid var(--font-main);
-  padding: 0.3em 0.6em;
+  font-weight: 300;
+  font-size: 1em;
+  border: 0.12em solid gray;
+  padding: 0.25em 0.8em;
   margin-right: 2em;
 }
 .top-nav .right button.upgrade:hover {
-  background-color: var(--bg-darkest);
   transform: scale(1.05);
 }
 
@@ -81,8 +92,8 @@
   padding: 0.2em;
   align-items: center;
   justify-content: center;
-  height: 2.4em;
-  background-color: rgba(0, 0, 0, 0.7);
+  height: 2.2em;
+  background-color: rgba(0, 0, 0, 0.4);
   transform: scale(1.05);
   border-radius: 40em;
 }
@@ -91,7 +102,7 @@
   border-radius: 40em;
 }
 .top-nav .right button.user-settings .name {
-  margin: 0 0.6em;
+  margin: 0 0.4em;
 }
 .top-nav .left .search-bar {
   display: flex;
@@ -121,4 +132,33 @@
   background-color: transparent;
   padding-right: 1em;
   min-width: 20em;
+}
+
+/* Responsive Mobile Screens */
+@media (max-width: 1023px) {
+  .top-nav {
+    padding: 0 0.4em;
+  }
+  .background-nav {
+    margin-left: -0.4em;
+  }
+  .top-nav .left .arrow {
+    display: none;
+  }
+  .top-nav .left .arrow-menu {
+    display: flex;
+  }
+  .top-nav .left .arrow-menu.hidden {
+    display: none;
+  }
+  .top-nav .left .search-bar .icon-container {
+    display: none;
+  }
+  .top-nav .left .search-bar input {
+    max-width: 35vw;
+    min-width: 0;
+  }
+  .top-nav .right button.upgrade {
+    display: none;
+  }
 }

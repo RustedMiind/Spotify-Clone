@@ -10,8 +10,24 @@
   --main-font-family: Circular, sans-serif;
   --main-font-weight: 600;
   --nav-color: rgb(80, 0, 0);
-  --grad-color1: rgba(152, 35, 0, 1);
-  --grad-color2: rgba(255, 136, 0, 1);
+  --grad-color1: #5c5c5c;
+  --grad-color2: #808080;
+}
+.disabled {
+  cursor: not-allowed !important;
+  color: gray !important;
+  pointer-events: none !important;
+}
+.not-found {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5em;
+  font-weight: 900;
+  text-align: center;
+  background-color: black;
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* font-family: 'Roboto', sans-serif; */
@@ -42,13 +58,12 @@
   src: url("./Circular/CircularStd-Book.otf") format("opentype");
 }
 * {
-  /* outline: 1px solid rgba(0, 225, 255, 0.3) !important; */
-  /* background-color: rgba(255, 255, 255, 0.15); */
+  /* outline: 1px solid rgba(0, 225, 255, 0.4) !important; */
+  /* background-color: rgba(4, 205, 255, 0.1); */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 .App {
   display: flex;
   width: 100vw;
@@ -65,4 +80,28 @@
   width: 82.5vw;
   height: 100vh;
   background-color: darkslategray;
+}
+/* Responsive Mobile Screens */
+@media (max-width: 1023px) {
+  .side-bar {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212d0;
+    z-index: 10000;
+    transition: transform 500ms;
+    transition-timing-function: cubic-bezier(0.67, -0.6, 0.285, 1.65);
+  }
+  .side-bar.hidden {
+    transform: translateX(-100vw);
+  }
+  #close {
+    display: block !important;
+  }
+  .view {
+    width: 100vw;
+  }
+  body {
+    font-size: 14px;
+  }
 }
